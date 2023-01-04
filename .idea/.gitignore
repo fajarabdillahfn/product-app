@@ -3,3 +3,8 @@
 /workspace.xml
 
 venv/
+/misc.xml
+/modules.xml
+/product-app.iml
+/inspectionProfiles/profiles_settings.xml
+/vcs.xml
