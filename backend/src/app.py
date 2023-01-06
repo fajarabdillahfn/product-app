@@ -1,7 +1,8 @@
 """App entry point."""
-from . import create_app
+from backend.src import create_app
+from config import HOST, PORT
 
 app = create_app()
 
 if __name__ == "__main__":
-    app.run(app.config.HOST, app.config.PORT, app.config.DEBUG)
+    app.run(HOST, PORT)
